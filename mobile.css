@@ -1,0 +1,61 @@
+/* Showcase */
+
+#showcase .lead{
+  font-size: 1rem;
+  width: 100%;
+}
+
+#showcase .showcase-content{
+  
+  
+  position: absolute;
+  top: 50px;
+  left: 0;
+  right: 0;
+  bottom: 0; 
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+/* MOBILE PHONES */
+@media(max-width:500px){
+#navbar{
+  flex-direction: column;
+  align-items: center;
+}
+
+#navbar .logo{
+  margin-bottom: 1rem;
+}
+
+/* WHAT */
+#what .items{
+  display: flex;
+  flex-direction: column;
+}
+
+/* Clients */
+#who{
+  display: block;
+}
+
+#who .who-img{
+  height: 300px;
+}
+
+#clients .items img{
+  width: 80%;
+}
+
+#clients .items div:last-child{
+  display: none;
+}
+
+#contact {
+  display: flex;
+  flex-direction: column;
+}
+
+#contact .map{
+  height: 300px;
+}
+}
